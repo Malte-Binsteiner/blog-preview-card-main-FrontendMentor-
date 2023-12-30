@@ -1,0 +1,131 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: #F5D04E;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.align-center {
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    
+    background-color: white; 
+    
+
+    border: 1px solid #000;
+    border-radius: 20px;
+    
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em
+
+}
+
+.card * {
+    margin: 0;
+}
+
+.card:hover {
+    box-shadow: 15px 15px 0 #000;
+    transition: 1s;
+}
+
+.card > img {
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.card > img:hover {
+    margin: 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.categories {
+    display: flex;
+    justify-content: left;
+    gap: 0.5em;
+    font-weight: bold;
+}
+
+category {
+    padding: 5px 10px;
+    background-color: #f5c51a;
+    border-radius: 5px;
+    font-size: 0.8rem
+}
+
+
+category:hover {
+    box-shadow: 2px 2px 0 #000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.release_date {
+    font-size: 0.9rem;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.title:hover {
+    color: #f5c51a;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.description {
+    color: gray;
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.autor img {
+    width: 35px;
+    margin: 10px;
+}
+
+.autor img:hover {
+    width: 55px;
+    margin: 0;
+    box-shadow: 0 0 10px #757575;
+    border-radius: 27.5px;
+    transition: 0.7s
+}
+
+.autor .name {
+    font-weight: bold;
+}
+
+.autor .name:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
